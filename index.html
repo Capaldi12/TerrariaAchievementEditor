@@ -4,10 +4,15 @@
     <meta charset="UTF-8">
     <title>Terraria Achievement Editor</title>
     <link rel="icon" href="static/favicon.png">
+    <link rel="stylesheet" href="static/style.css">
     <script src="static/js/script.js"></script>
 </head>
 <body>
     <h1>Terraria Achievement Editor</h1>
-    <button onclick="test()">Press me</button>
+
+    <div class="drop-zone">
+        <span class="drop-zone__prompt">Drop file here or click to upload</span>
+        <input type="file" name="myFile" class="drop-zone__input" accept=".dat">
+    </div>
 </body>
 </html>
